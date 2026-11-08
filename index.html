@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#143b31" />
+    <meta name="description" content="Good cuts, good company. Explore Fifth Street Barber Co. services and request your next appointment." />
+    <title>Fifth Street Barber Co. | Good cuts, good company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Fifth Street Barber Co. home">
+        <span class="wordmark-mark" aria-hidden="true">5</span>
+        <span>Fifth Street<span class="wordmark-sub">BARBER CO.</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#styles">The cuts</a>
+        <a href="#services">Services</a>
+        <a class="nav-book" href="#book">Book a chair <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-photo" role="img" aria-label="A barber at work in a neighborhood barbershop"></div>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span></span> Your neighborhood, looking sharp</p>
+          <h1 id="hero-title">Good cuts.<br />Good company.</h1>
+          <p class="hero-copy">Classic craft, fresh thinking, and a proper hot towel. Pull up a chair on Fifth Street.</p>
+          <a class="button button-coral" href="#book">Find your chair <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-note"><span>EST. 2014</span><span>✳</span><span>FIFTH &amp; MAIN</span></div>
+        <a class="hero-scroll" href="#services"><span class="scroll-line"></span> Scroll to explore</a>
+      </section>
+
+      <section class="intro-band" aria-label="Shop promise">
+        <p>Sharp work, no fuss.</p>
+        <span class="intro-star" aria-hidden="true">✳</span>
+        <p>Come as you are. Leave feeling good.</p>
+        <span class="intro-star" aria-hidden="true">✳</span>
+        <p>Walk-ins welcome, good stories encouraged.</p>
+      </section>
+
+      <section class="section styles-section" id="styles" aria-labelledby="styles-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> Find your look</p>
+            <h2 id="styles-title">A little off the top.<br /><em>A lot more you.</em></h2>
+          </div>
+          <p class="section-aside">Bring a reference, bring an idea, or just bring yourself. We’ll figure it out together.</p>
+        </div>
+        <div class="style-grid">
+          <article class="style-item style-item-large">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1100&q=85" alt="Barber shaping a clean fade haircut" loading="lazy" />
+            <div class="style-caption"><span>01 / THE FADE</span><span>Clean lines, your way</span></div>
+          </article>
+          <article class="style-item style-item-offset">
+            <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=85" alt="Finished short textured haircut" loading="lazy" />
+            <div class="style-caption"><span>02 / THE TEXTURE</span><span>Easy does it</span></div>
+          </article>
+          <article class="style-item">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=85" alt="Barbershop chair ready for a classic cut" loading="lazy" />
+            <div class="style-caption"><span>03 / THE CLASSIC</span><span>Never out of style</span></div>
+          </article>
+        </div>
+        <a class="text-link" href="#book">Let’s find your cut <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="services-section" id="services" aria-labelledby="services-title">
+        <div class="section services-inner">
+          <div class="section-heading services-heading">
+            <div>
+              <p class="eyebrow eyebrow-light"><span></span> The good stuff</p>
+              <h2 id="services-title">The menu.</h2>
+            </div>
+            <p class="section-aside">No mystery, no rush. Just good work and a little time for yourself.</p>
+          </div>
+          <div class="service-list">
+            <article class="service-row">
+              <div class="service-number">01</div>
+              <div class="service-info"><h3>The Fifth Street Cut</h3><p>Consultation, cut, style, and a hot towel finish.</p></div>
+              <span class="service-duration">45 MIN</span><span class="service-price">$35</span>
+              <button class="service-book" type="button" data-service="The Fifth Street Cut" aria-label="Book The Fifth Street Cut">↗</button>
+            </article>
+            <article class="service-row">
+              <div class="service-number">02</div>
+              <div class="service-info"><h3>Clipper Cut</h3><p>One guard, a blend, or something in between.</p></div>
+              <span class="service-duration">30 MIN</span><span class="service-price">$25</span>
+              <button class="service-book" type="button" data-service="Clipper Cut" aria-label="Book Clipper Cut">↗</button>
+            </article>
+            <article class="service-row">
+              <div class="service-number">03</div>
+              <div class="service-info"><h3>Beard Shape &amp; Tidy</h3><p>Shape, detail, and a little balm to finish.</p></div>
+              <span class="service-duration">25 MIN</span><span class="service-price">$20</span>
+              <button class="service-book" type="button" data-service="Beard Shape & Tidy" aria-label="Book Beard Shape and Tidy">↗</button>
+            </article>
+            <article class="service-row">
+              <div class="service-number">04</div>
+              <div class="service-info"><h3>The Full Reset</h3><p>Cut, beard detail, hot towel, and a cold drink.</p></div>
+              <span class="service-duration">60 MIN</span><span class="service-price">$50</span>
+              <button class="service-book" type="button" data-service="The Full Reset" aria-label="Book The Full Reset">↗</button>
+            </article>
+          </div>
+          <p class="walkin-note"><span aria-hidden="true">✳</span> Walk-ins are always welcome when a chair is free.</p>
+        </div>
+      </section>
+
+      <section class="booking-section" id="book" aria-labelledby="booking-title">
+        <div class="booking-copy">
+          <p class="eyebrow"><span></span> Your turn</p>
+          <h2 id="booking-title">Save yourself<br />a <em>seat.</em></h2>
+          <p>Tell us what you’re after and when. We’ll be in touch to confirm your time.</p>
+          <div class="booking-details">
+            <span class="detail-icon" aria-hidden="true">✳</span>
+            <div><strong>Find us on Fifth</strong><span>18 Fifth Street, Portland, OR</span></div>
+          </div>
+          <div class="booking-details">
+            <span class="detail-icon" aria-hidden="true">◷</span>
+            <div><strong>Here when you need us</strong><span>Tue–Fri, 9–7 · Sat, 9–5</span></div>
+          </div>
+        </div>
+        <form class="booking-form" id="booking-form">
+          <div class="form-intro"><span>01 — 04</span><span>APPOINTMENT REQUEST</span></div>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="First and last" required />
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="you@email.com" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(555) 000-0000" required />
+            </div>
+          </div>
+          <label for="service">Pick your service</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Choose from the menu</option>
+            <option value="The Fifth Street Cut">The Fifth Street Cut — $35</option>
+            <option value="Clipper Cut">Clipper Cut — $25</option>
+            <option value="Beard Shape & Tidy">Beard Shape &amp; Tidy — $20</option>
+            <option value="The Full Reset">The Full Reset — $50</option>
+          </select>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="date">Best day</label>
+              <input id="date" name="date" type="date" required />
+            </div>
+            <div class="form-field">
+              <label for="time">Best time</label>
+              <select id="time" name="time" required>
+                <option value="" disabled selected>Choose a time</option>
+                <option>9:00 AM</option><option>10:00 AM</option><option>11:00 AM</option>
+                <option>12:00 PM</option><option>1:00 PM</option><option>2:00 PM</option>
+                <option>3:00 PM</option><option>4:00 PM</option><option>5:00 PM</option>
+              </select>
+            </div>
+          </div>
+          <button class="button button-dark submit-button" type="submit">Request an appointment <span aria-hidden="true">↗</span></button>
+          <p class="form-note">This is a request, not a confirmed booking. We’ll follow up to confirm availability.</p>
+          <p class="form-message" id="form-message" role="status" aria-live="polite" tabindex="-1"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#top">
+        <span class="wordmark-mark" aria-hidden="true">5</span>
+        <span>Fifth Street<span class="wordmark-sub">BARBER CO.</span></span>
+      </a>
+      <p>Good cuts. Good company.</p>
+      <a class="footer-top" href="#top">Back to top ↑</a>
+      <span class="footer-copy">© 2026 FIFTH STREET BARBER CO.</span>
+    </footer>
+  </body>
+</html>
